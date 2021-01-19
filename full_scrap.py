@@ -3,8 +3,8 @@ from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import pandas as pd
 
-DRIVER_PATH = '/Users/abhishekbidap/Documents/Webscrap-crunchbase/crunchbase/chromedriver'
-PATH = '/Users/abhishekbidap/Documents/Webscrap-crunchbase/crunchbase/html_source.html'
+DRIVER_PATH = '/Documents/Webscrap-crunchbase/crunchbase/chromedriver'
+#PATH = '/Documents/Webscrap-crunchbase/crunchbase/html_source.html'
 LINK = 'https://www.crunchbase.com/discover/organization.companies/340df1d3bdbb2470c9d204aa71994d5d'
 
 def scrapper(link):
